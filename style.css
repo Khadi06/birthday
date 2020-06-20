@@ -2,6 +2,8 @@
     font-size: 4em;
     text-align: center;
     color: darkmagenta;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 
@@ -15,12 +17,16 @@ body{
     text-align: center;
     font-size: 3em;
     color: darkblue;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 .nana{
     text-align: center;
 font-size: 5em;
 font-style: italic;
 color:crimson;
+margin-left: 5em;
+    margin-right: 5em;
 }
 .may{
     font-size: 2em;
@@ -34,25 +40,34 @@ color:crimson;
     text-align: center;
     font-size: 2em;
     font-style: oblique;
+    margin-left: 10em;
+    margin-right: 10em;
+
 }
 .kha{
     font-size: 1em;
     color:blue;
     font-style: italic;
     font-weight: bolder;
+    margin-top: 200px;
 }
 
 @media screen and (max-width:375px) {
     .hap, .hur,.may, .nana, .cheer, .kha, body{
       width:100%; 
-      font-size: 20px;
+      font-size: 40px;
+      text-align: center;
+      align-items: center;
     }
   }
   @media screen and (max-width:768px) {
-    .hap, .hur,.may, .nana, .cheer, .kha, body{
+    .hap, .hur,.may, .nana, .cheer, .kha{
       width:100%; 
-      font-size: 20px;
+      font-size: 30px;
+    text-align: center;
+    align-items:center;
     }
+
   }
   
 
